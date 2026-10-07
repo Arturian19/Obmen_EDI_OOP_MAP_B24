@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<eDIMessage id="f9928b42-bdb3-4aa2-bc44-cf25f31d719a">
+  <interchangeHeader>
+    <sender>2622104526514</sender>
+    <recipient>2865059663174</recipient>
+    <documentType>RECADV</documentType>
+    <creationDateTime>2025-12-11T09:53:53.381Z</creationDateTime>
+  </interchangeHeader>
+  <receivingAdvice number="98" date="2025-12-11">
+    <originOrder number="6578834" date="2025-12-10" />
+    <contractIdentificator number="1" date="2025-12-08" />
+    <despatchIdentificator number="4" date="2025-12-11" />
+    <seller>
+      <gln>2865059663174</gln>
+      <organization>
+        <name>Тестовый поставщик Макс Артур</name>
+        <inn>5345177209</inn>
+        <kpp>885685952</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-KR</regionISOCode>
+      </russianAddress>
+    </seller>
+    <buyer>
+      <gln>2622104526514</gln>
+      <organization>
+        <name>Тестовая сеть Макс Артур</name>
+        <inn>1215332600</inn>
+        <kpp>067801090</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-NVS</regionISOCode>
+        <city>Новосибирск </city>
+        <street>Ленина</street>
+        <house>12</house>
+      </russianAddress>
+    </buyer>
+    <invoicee>
+      <gln>2622104526514</gln>
+      <organization>
+        <name>Тестовая сеть Макс Артур</name>
+        <inn>1215332600</inn>
+        <kpp>067801090</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-NVS</regionISOCode>
+        <city>Новосибирск </city>
+        <street>Ленина</street>
+        <house>12</house>
+      </russianAddress>
+    </invoicee>
+    <deliveryInfo>
+      <receptionDateTime>2025-12-11T00:00:00.000Z</receptionDateTime>
+      <shipFrom>
+        <gln>2865059663174</gln>
+        <organization>
+          <name>Тестовый поставщик Макс Артур</name>
+          <inn>5345177209</inn>
+          <kpp>885685952</kpp>
+        </organization>
+        <russianAddress>
+          <regionISOCode>RU-NVS</regionISOCode>
+          <city>Новосибирск</city>
+          <street>Ленина</street>
+          <house>12</house>
+        </russianAddress>
+      </shipFrom>
+      <shipTo>
+        <gln>2622104526514</gln>
+        <organization>
+          <name>Тестовая сеть Макс Артур</name>
+          <inn>1215332600</inn>
+          <kpp>067801090</kpp>
+        </organization>
+        <russianAddress>
+          <regionISOCode>RU-NVS</regionISOCode>
+          <city>Новосибисрк</city>
+          <street>Ленина </street>
+          <house>12</house>
+        </russianAddress>
+      </shipTo>
+    </deliveryInfo>
+    <lineItems>
+      <currencyISOCode>RUB</currencyISOCode>
+      <lineItem>
+        <gtin>8973435</gtin>
+        <internalBuyerCode>0017</internalBuyerCode>
+        <internalSupplierCode>00000000001</internalSupplierCode>
+        <description>Товар 1</description>
+        <orderedQuantity unitOfMeasure="PCE">3.000</orderedQuantity>
+        <despatchedQuantity unitOfMeasure="PCE">3.000</despatchedQuantity>
+        <deliveredQuantity unitOfMeasure="PCE">3.000</deliveredQuantity>
+        <acceptedQuantity unitOfMeasure="PCE">2.000</acceptedQuantity>
+        <onePlaceQuantity unitOfMeasure="PCE">1.000</onePlaceQuantity>
+        <netPrice>45.0000</netPrice>
+        <netPriceWithVAT>54.9000</netPriceWithVAT>
+        <netAmount>135.0000</netAmount>
+        <vATRate>22</vATRate>
+        <vATAmount>29.7000</vATAmount>
+        <amount>164.7000</amount>
+      </lineItem>
+      <lineItem>
+        <gtin>45678654</gtin>
+        <internalBuyerCode>3421</internalBuyerCode>
+        <internalSupplierCode>00000000002</internalSupplierCode>
+        <description>товар 2</description>
+        <orderedQuantity unitOfMeasure="PCE">3.000</orderedQuantity>
+        <despatchedQuantity unitOfMeasure="PCE">3.000</despatchedQuantity>
+        <deliveredQuantity unitOfMeasure="PCE">3.000</deliveredQuantity>
+        <acceptedQuantity unitOfMeasure="PCE">2.000</acceptedQuantity>
+        <onePlaceQuantity unitOfMeasure="PCE">1.000</onePlaceQuantity>
+        <netPrice>21.0000</netPrice>
+        <netPriceWithVAT>25.2000</netPriceWithVAT>
+        <netAmount>63.0000</netAmount>
+        <vATRate>20</vATRate>
+        <vATAmount>12.6000</vATAmount>
+        <amount>75.6000</amount>
+      </lineItem>
+      <lineItem>
+        <gtin>4325553</gtin>
+        <internalBuyerCode>214</internalBuyerCode>
+        <internalSupplierCode>00000000003</internalSupplierCode>
+        <description>Товар 3</description>
+        <orderedQuantity unitOfMeasure="PCE">3.000</orderedQuantity>
+        <despatchedQuantity unitOfMeasure="PCE">3.000</despatchedQuantity>
+        <deliveredQuantity unitOfMeasure="PCE">3.000</deliveredQuantity>
+        <acceptedQuantity unitOfMeasure="PCE">2.000</acceptedQuantity>
+        <onePlaceQuantity unitOfMeasure="PCE">1.000</onePlaceQuantity>
+        <netPrice>76.0000</netPrice>
+        <netPriceWithVAT>76.0000</netPriceWithVAT>
+        <netAmount>228.0000</netAmount>
+        <vATRate>NOT_APPLICABLE</vATRate>
+        <vATAmount>0.0000</vATAmount>
+        <amount>228.0000</amount>
+      </lineItem>
+      <totalSumExcludingTaxes>426.00</totalSumExcludingTaxes>
+      <totalVATAmount>42.30</totalVATAmount>
+      <totalAmount>468.30</totalAmount>
+    </lineItems>
+  </receivingAdvice>
+</eDIMessage>

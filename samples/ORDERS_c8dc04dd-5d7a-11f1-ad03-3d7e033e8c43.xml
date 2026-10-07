@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<eDIMessage id="924d8789-a965-4968-8647-37f10f3b1fd7">
+  <interchangeHeader>
+    <sender>2622104526514</sender>
+    <recipient>2865059663174</recipient>
+    <documentType>ORDERS</documentType>
+    <creationDateTime>2026-06-01T05:28:56.263Z</creationDateTime>
+  </interchangeHeader>
+  <order number="112343" date="2026-06-01">
+    <contractIdentificator number="1" date="2026-06-01" />
+    <seller>
+      <gln>2865059663174</gln>
+      <organization>
+        <name>Тестовый поставщик Макс Артур</name>
+        <inn>5345177209</inn>
+        <kpp>885685952</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-KR</regionISOCode>
+      </russianAddress>
+    </seller>
+    <buyer>
+      <gln>2622104526514</gln>
+      <organization>
+        <name>Тестовая сеть Макс Артур</name>
+        <inn>1215332600</inn>
+        <kpp>067801090</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-NVS</regionISOCode>
+        <city>Новосибирск </city>
+        <street>Ленина</street>
+        <house>12</house>
+      </russianAddress>
+    </buyer>
+    <invoicee>
+      <gln>2622104526514</gln>
+      <organization>
+        <name>Тестовая сеть Макс Артур</name>
+        <inn>1215332600</inn>
+        <kpp>067801090</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-NVS</regionISOCode>
+        <city>Новосибирск </city>
+        <street>Ленина</street>
+        <house>12</house>
+      </russianAddress>
+    </invoicee>
+    <deliveryInfo>
+      <requestedDeliveryDateTime>2026-06-02T00:00:00.000Z</requestedDeliveryDateTime>
+      <shipFrom>
+        <gln>2865059663174</gln>
+        <organization>
+          <name>Тестовый поставщик Макс Артур</name>
+          <inn>5345177209</inn>
+          <kpp>885685952</kpp>
+        </organization>
+        <russianAddress>
+          <regionISOCode>RU-NVS</regionISOCode>
+          <city>Новосибирск</city>
+          <street>Ленина</street>
+          <house>12</house>
+        </russianAddress>
+      </shipFrom>
+      <shipTo>
+        <gln>2622104526514</gln>
+        <organization>
+          <name>Тестовая сеть Макс Артур</name>
+          <inn>1215332600</inn>
+          <kpp>067801090</kpp>
+        </organization>
+        <russianAddress>
+          <regionISOCode>RU-NVS</regionISOCode>
+          <city>Новосибисрк</city>
+          <street>Ленина </street>
+          <house>12</house>
+        </russianAddress>
+      </shipTo>
+    </deliveryInfo>
+    <lineItems>
+      <currencyISOCode>RUB</currencyISOCode>
+      <lineItem>
+        <gtin>5</gtin>
+        <internalBuyerCode>00000000005</internalBuyerCode>
+        <internalSupplierCode>5</internalSupplierCode>
+        <description>Шаньги</description>
+        <requestedQuantity unitOfMeasure="PCE">10.000</requestedQuantity>
+        <netPrice>66.6700</netPrice>
+        <vATRate>20</vATRate>
+      </lineItem>
+      <lineItem>
+        <gtin>12345678</gtin>
+        <internalBuyerCode>12345678</internalBuyerCode>
+        <description>Тавык</description>
+        <requestedQuantity unitOfMeasure="PCE">100.000</requestedQuantity>
+        <netPrice>100.0000</netPrice>
+        <vATRate>22</vATRate>
+      </lineItem>
+    </lineItems>
+  </order>
+</eDIMessage>

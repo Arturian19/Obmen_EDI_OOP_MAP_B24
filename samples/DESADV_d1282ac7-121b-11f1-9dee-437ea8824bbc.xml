@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<eDIMessage id="a5ef1a74-8995-4813-9106-7b47af992f08">
+  <interchangeHeader>
+    <sender>2865059663174</sender>
+    <recipient>2622104526514</recipient>
+    <documentType>DESADV</documentType>
+    <creationDateTime>2026-02-25T07:30:20.824Z</creationDateTime>
+    <creationDateTimeBySender>2026-02-25T11:30:10.000Z</creationDateTimeBySender>
+  </interchangeHeader>
+  <despatchAdvice number="9" date="2026-02-25">
+    <originOrder number="9879" date="2026-02-25" />
+    <contractIdentificator number="1" date="2025-12-08" />
+    <deliveryNoteIdentificator number="9" date="2026-02-25" />
+    <seller>
+      <gln>2865059663174</gln>
+      <organization>
+        <name>Тестовый поставщик Макс Артур</name>
+        <inn>5345177209</inn>
+        <kpp>885685952</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-KR</regionISOCode>
+      </russianAddress>
+    </seller>
+    <buyer>
+      <gln>2622104526514</gln>
+      <organization>
+        <name>Тестовая сеть Макс Артур</name>
+        <inn>1215332600</inn>
+        <kpp>067801090</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-NVS</regionISOCode>
+        <city>Новосибирск </city>
+        <street>Ленина</street>
+        <house>12</house>
+      </russianAddress>
+    </buyer>
+    <invoicee>
+      <gln>2622104526514</gln>
+      <organization>
+        <name>Тестовая сеть Макс Артур</name>
+        <inn>1215332600</inn>
+        <kpp>067801090</kpp>
+      </organization>
+      <russianAddress>
+        <regionISOCode>RU-NVS</regionISOCode>
+        <city>Новосибирск </city>
+        <street>Ленина</street>
+        <house>12</house>
+      </russianAddress>
+    </invoicee>
+    <deliveryInfo>
+      <estimatedDeliveryDateTime>2026-02-27T00:00:00.000Z</estimatedDeliveryDateTime>
+      <shippingDateTime>2026-02-25T11:29:02.000Z</shippingDateTime>
+      <shipFrom>
+        <gln>2865059663174</gln>
+        <organization>
+          <name>Тестовый поставщик Макс Артур</name>
+          <inn>5345177209</inn>
+          <kpp>885685952</kpp>
+        </organization>
+        <russianAddress>
+          <regionISOCode>RU-NVS</regionISOCode>
+          <city>Новосибирск</city>
+          <street>Ленина</street>
+          <house>12</house>
+        </russianAddress>
+      </shipFrom>
+      <shipTo>
+        <gln>2622104526514</gln>
+        <organization>
+          <name>Тестовая сеть Макс Артур</name>
+          <inn>1215332600</inn>
+          <kpp>067801090</kpp>
+        </organization>
+        <russianAddress>
+          <regionISOCode>RU-NVS</regionISOCode>
+          <city>Новосибисрк</city>
+          <street>Ленина </street>
+          <house>12</house>
+        </russianAddress>
+      </shipTo>
+    </deliveryInfo>
+    <lineItems>
+      <currencyISOCode>RUB</currencyISOCode>
+      <lineItem>
+        <gtin>8973435</gtin>
+        <internalBuyerCode>0017</internalBuyerCode>
+        <internalSupplierCode>00-00000001</internalSupplierCode>
+        <lineNumberInSupplierSystem>1</lineNumberInSupplierSystem>
+        <description>Товар 1</description>
+        <orderedQuantity unitOfMeasure="PCE">3.000</orderedQuantity>
+        <despatchedQuantity unitOfMeasure="PCE">3.000</despatchedQuantity>
+        <onePlaceQuantity unitOfMeasure="PCE">1.000</onePlaceQuantity>
+        <netPrice>45.0000</netPrice>
+        <netPriceWithVAT>54.9000</netPriceWithVAT>
+        <netAmount>135.0000</netAmount>
+        <vATRate>22</vATRate>
+        <vATAmount>29.7000</vATAmount>
+        <amount>164.7000</amount>
+      </lineItem>
+      <lineItem>
+        <gtin>7654321</gtin>
+        <internalBuyerCode>234</internalBuyerCode>
+        <internalSupplierCode>00-00000003</internalSupplierCode>
+        <lineNumberInSupplierSystem>2</lineNumberInSupplierSystem>
+        <description>Товар 4</description>
+        <orderedQuantity unitOfMeasure="PCE">3.000</orderedQuantity>
+        <despatchedQuantity unitOfMeasure="PCE">3.000</despatchedQuantity>
+        <onePlaceQuantity unitOfMeasure="PCE">1.000</onePlaceQuantity>
+        <netPrice>45.0000</netPrice>
+        <netPriceWithVAT>54.9000</netPriceWithVAT>
+        <netAmount>135.0000</netAmount>
+        <vATRate>22</vATRate>
+        <vATAmount>29.7000</vATAmount>
+        <amount>164.7000</amount>
+      </lineItem>
+      <totalSumExcludingTaxes>270.00</totalSumExcludingTaxes>
+      <totalVATAmount>59.40</totalVATAmount>
+      <totalAmount>329.40</totalAmount>
+    </lineItems>
+  </despatchAdvice>
+</eDIMessage>
